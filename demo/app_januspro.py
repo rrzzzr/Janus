@@ -12,7 +12,7 @@ import time
 
 
 # Load model and processor
-model_path = "deepseek-ai/Janus-Pro-7B"
+model_path = "deepseek-ai/Janus-Pro-1B"
 config = AutoConfig.from_pretrained(model_path)
 language_config = config.language_config
 language_config._attn_implementation = 'eager'
